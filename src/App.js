@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import UserSignIN from './Components/User-Register/SignIN';
+import UserSignUP from './Components/User-Register/SignUP'
+import TechSignIN from './Components/Tech-Register/SignIN';
+import TechSignUP from './Components/Tech-Register/SignUP'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     
+     <UserSignUP />
+     <UserSignIN />
+     <TechSignIN />
+     <TechSignUP />
     </div>
   );
 }

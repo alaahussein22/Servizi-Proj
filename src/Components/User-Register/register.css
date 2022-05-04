@@ -1,0 +1,67 @@
+.par{margin: 15px;padding:10px;}
+
+form{
+     border-radius:15px ;
+     -webkit-border-radius:15px ;
+     -moz-border-radius:15px ;
+     -ms-border-radius:15px ;
+     -o-border-radius:15px ;
+     margin:10px
+}
+
+form .form-control , .form-select
+{ border-radius:15px ;
+  -webkit-border-radius:15px ; 
+  -moz-border-radius:15px ; 
+  -ms-border-radius:15px ; 
+  -o-border-radius:15px ; }
+
+.section{box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;border-radius:15px ;}
+
+.photo{
+       margin-top:33px;
+       /* background-image: url('../../assets/IMG-20220427-WA0013.jpg');
+       background-size: contain;
+       background-repeat: no-repeat;
+       background-position: center;
+       width: 400px;
+       height: 480px;
+       background-color: purple;
+       border-radius:15px ;
+       -webkit-border-radius:15px ;
+       -moz-border-radius:15px ;
+       -ms-border-radius:15px ;
+       -o-border-radius:15px ; */
+}  
+
+.sign{background-color:purple;color:white;font-size:18px;margin-bottom: 30px;}
+
+.center{text-align:center}
+
+
+/*SIGN IN /////////////////////////////////////////////////////////////////////*/
+
+.userSignIn{
+            background-color:rgb(243, 235, 235);
+            margin: 15px 300px;
+            padding:10px;
+            width: 500px;
+            height: 450px;
+            border-radius:15px ;
+            -webkit-border-radius:15px ;
+            -moz-border-radius:15px ;
+            -ms-border-radius:15px ;
+            -o-border-radius:15px ;
+}
+
+.u-sign input{ border-radius:25px ; 
+              margin: 30px 80px;
+               padding: 13px;
+               width:300px
+
+}
+
+.u-signBtn{ border-radius:25px ;
+           padding:10px; font-size: 15px; font-weight: bold;
+            width: 120px; margin: 30px 170px;
+            box-shadow: 7px 5px rgb(79, 160, 247);}
