@@ -1,0 +1,52 @@
+.servH{background-color:#0B0B85;
+       width: auto;
+       height:500px}
+
+
+.house h2{color:white;padding: 60px 0 20px;margin: 0 95px;}
+
+.house p{color:white;padding: 25px 0 0 ;margin: 0 95px;}
+
+.service-type{
+              background-color:rgb(188, 182, 182);
+              width: 400px;
+              height: 70px;
+              border-radius:13px ;
+              margin: 10px 95px;
+              
+}
+
+.service-type .first{
+                     background-color: white;
+                     padding: 5px;
+                     margin: 10px 20px;
+                     border-radius: 15px                                                                                    ;
+                     -webkit-border-radius: 15px                                                                                    ;
+                     -moz-border-radius: 15px                                                                                    ;
+                     -ms-border-radius: 15px                                                                                    ;
+                     -o-border-radius: 15px                                                                                    ;
+}
+
+.service-type .first button{ color:#616A6B;}
+.service-type .second{
+                        background-color:#FFB233;
+                        padding: 5px;
+                        margin: 10px;
+                        border-radius: 15px    ;
+                        -webkit-border-radius: 15px    ;
+                        -moz-border-radius: 15px    ;
+                        -ms-border-radius: 15px    ;
+                        -o-border-radius: 15px    ;
+}
+
+.service-type .second h5{margin:7px 33px}
+
+.photo{
+       padding:70px 15px;
+}
+
+.photo img{ border-radius:50%;
+       -webkit-border-radius:50%;
+       -moz-border-radius:50%;
+       -ms-border-radius:50%;
+       -o-border-radius:50%;}

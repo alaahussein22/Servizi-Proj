@@ -1,0 +1,88 @@
+.lorem{
+       background-color: #FBFCFC;
+       text-align: center;
+       width: 290px;
+       height:250px;
+       margin: -25px 12px;
+       border-radius:15px;
+       -webkit-border-radius:15px;
+       -moz-border-radius:15px;
+       -ms-border-radius:15px;
+       -o-border-radius:15px;
+       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.lorem span{ background-color:#AEB6BF;
+             border: 2px solid black;
+             margin-top: 50px;
+             padding:20px;
+            border-radius:50% ;
+            -webkit-border-radius:50% ; -moz-border-radius:50% ; -ms-border-radius:50% ; -o-border-radius:50%; }
+
+ .lorem h5{font-weight: bold;margin-top: 60px;}           
+.lorem p{margin-top:10px;color:#566573}
+
+
+
+/* start Work-Section */
+
+.work{background-color:#0B0B85;
+      height:130px;
+      margin:80px 0;
+      text-align: center;
+      padding:10px 100px
+      
+}
+
+
+.work h5{color: #D0D3D4;
+         font-weight:bolder;
+         font-size:38px;
+         margin: 10px 0;
+        }
+
+.work p{ font-size:20px;
+          color:#D0D3D4;
+          margin:0 50px
+        }
+
+/* end Work-Section */
+
+
+
+/* start Client-Section */
+
+.client h3{font-weight: bold;}
+
+.client .feedback {
+                   background-color:#D0D3D4;
+                   height:200px;
+                   padding: 20px;
+                   margin:20px 0 20px 10px;
+                   border-radius:15px;
+                   -webkit-border-radius:15px;
+                   -moz-border-radius:15px;
+                   -ms-border-radius:15px;
+                   -o-border-radius:15px;
+}
+
+.client .feedback .group{align-items:center;}
+.group h5{margin:0 10px}
+
+
+.client .two{margin-top: 90px; margin-left: 100px;}
+
+.feedback img{
+              border-radius:50%;
+           
+}
+.feedback p{margin:20px 3px;font-weight: 520;color:#566573}
+
+
+
+
+
+
+
+
+/* start Client-Section */
