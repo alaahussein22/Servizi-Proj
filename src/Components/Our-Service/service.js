@@ -1,5 +1,6 @@
 import React from 'react'
 import './service.css'
+import {Link} from 'react-router-dom'
 import img from '../../assets/service.png'
 import ConstructionIcon from '@mui/icons-material/Construction';
 
@@ -42,14 +43,16 @@ const Service=()=> {
  <section className="all-serv container">
  <div className="row">
 
+
         <div className="lorem col-md-4 ">
         <span> <ConstructionIcon /> </span>
-            <h5>Lorem ipsum</h5>
+            <Link to='/tech' ><h5>Lorem ipsum</h5></Link>
             <p>lorem Ipsum dolor sit amet,
              consect adipiscing elit, 
              sed diam pulvinar lorem ,
              lector matchers lector adipiscing matchers</p>
            </div>
+
 
     <div className="lorem col-md-4">
     <span> <ConstructionIcon /> </span>

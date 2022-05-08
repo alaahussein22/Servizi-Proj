@@ -1,0 +1,82 @@
+.tech{text-align:center;}
+
+.tech h5{
+         color:white;
+         font-weight:bold;
+         font-size:25px;
+         margin:0 50px;
+}
+
+.head{text-align:center;
+      margin: 80px 0 30px 0;
+  }
+
+.tech-type{
+           background-color:#0B0B85;
+           text-align: center;
+           justify-content: center;
+           width:700px;
+           border-radius:15px ;
+           -webkit-border-radius:15px ;
+           -moz-border-radius:15px ;
+           -ms-border-radius:15px ;
+           -o-border-radius:15px ;
+}
+
+.dropdown-toggle::after{margin-left: 150px;}
+
+.tech-type .first{
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+    width: 250px;
+    border-radius: 15px                                                                                    ;
+    
+}
+
+.tech-type .first button{ color:#616A6B;}
+
+.tech-type .second{
+       background-color:#FFB233;
+       padding: 5px;
+       margin: 10px;
+       border-radius: 15px    ;
+       -webkit-border-radius: 15px    ;
+       -moz-border-radius: 15px    ;
+       -ms-border-radius: 15px    ;
+       -o-border-radius: 15px    ;
+}
+
+/* //////////////////////////////////////////////////////// */
+
+.profileT{
+          border: 1px solid #566573;
+          margin: 70px 25px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          width: 330px;
+          border-radius: 15px    ;
+          -webkit-border-radius: 15px    ;
+          -moz-border-radius: 15px    ;
+          -ms-border-radius: 15px    ;
+          -o-border-radius: 15px    ;
+}
+
+.tecBtn button{background-color:#0B0B85;
+        border-radius: 15px    ;
+        color:white;
+        width: 130px;
+        padding:5px;
+        margin: 10px 0 7px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
