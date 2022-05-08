@@ -7,12 +7,14 @@ import StarIcon from '@mui/icons-material/Star';
 
 
 const About = () => {
-    return <div>
+    return <>
 
+
+<div className="bbb">
  <section className="about container">
  <div className="row">
 
-        <div className="lorem col-md-4">
+        <div className="lorem col-md-4 ">
         <span> <ConstructionIcon /> </span>
             <h5>Lorem ipsum</h5>
             <p>lorem Ipsum dolor sit amet,
@@ -44,12 +46,14 @@ const About = () => {
 </div>
  </section>
 
+</div>
 {/* //////////////////////////////////////////////// */}
 
 
 
-<section className="work ">
- <div className="row container">
+<div className="www">
+<section className="work container">
+ <div className="row ">
 
         <div className="hour col-md-4">
             <h5>+130k</h5>
@@ -68,15 +72,16 @@ const About = () => {
 
 </div>
  </section>
-
+</div>
 
 
 {/* ///////////////////////////////////////////////// */}
 
+
 <section className="client container">
  <div className="row ">
 
-<h3>Clients Feedback</h3>
+<h2>Clients Feedback</h2>
         <div className="feedback col-md-5">
         <span className="d-flex group">
            <img src={man_img} alt="man" width={80} height={80} />
@@ -125,7 +130,7 @@ const About = () => {
 
 
 
-    </div>;
+    </>;
 }
 
 export default About;

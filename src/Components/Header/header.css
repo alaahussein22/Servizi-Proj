@@ -1,19 +1,19 @@
+.hhh{background-color:#0B0B85;}
 .servH{background-color:#0B0B85;
        width: auto;
        height:500px}
 
 
-.house h2{color:white;padding: 60px 0 20px;margin: 0 95px;}
+.house h2{color:white;padding: 60px 0 20px;}
 
-.house p{color:white;padding: 25px 0 0 ;margin: 0 95px;}
+.house p{color:white;padding: 25px 0 0 ;}
 
 .service-type{
               background-color:rgb(188, 182, 182);
               width: 400px;
               height: 70px;
               border-radius:13px ;
-              margin: 10px 95px;
-              
+                    
 }
 
 .service-type .first{
@@ -42,11 +42,5 @@
 .service-type .second h5{margin:7px 33px}
 
 .photo{
-       padding:70px 15px;
+       padding:7px 0;
 }
-
-.photo img{ border-radius:50%;
-       -webkit-border-radius:50%;
-       -moz-border-radius:50%;
-       -ms-border-radius:50%;
-       -o-border-radius:50%;}

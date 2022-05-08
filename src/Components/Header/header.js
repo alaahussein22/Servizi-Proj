@@ -1,14 +1,15 @@
 import React from 'react';
 import './header.css'
 import SearchIcon from '@mui/icons-material/Search';
-import img from '../../assets/pexels-pavel-chernonogov-2381463.jpg'
+import img from '../../assets/man desgin landing page.png';
+import {Link} from 'react-router-dom'
 
 const Header = () => {
-    return <div>
-     <header className="servH ">
-     <div className="row container">
+    return <div className='hhh'>
+     <header className="servH container">
+     <div className="row ">
 
-       <div className=" house  col-md-9">
+       <div className=" house  col-md-8">
         <h2>Best Solution for<br/>
             Every House Problems
         </h2>
@@ -24,9 +25,9 @@ const Header = () => {
                    Service Type
                 </button>
                 <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                    <li><a className="dropdown-item" href="#">Action</a></li>
-                    <li><a className="dropdown-item" href="#">Another action</a></li>
-                    <li><a className="dropdown-item" href="#">Something else here</a></li>
+                    <li><Link className="dropdown-item" to="#">Action</Link></li>
+                    <li><Link className="dropdown-item" to="#">Another action</Link></li>
+                    <li><Link className="dropdown-item" to="#">Something else here</Link></li>
                 </ul>
                 </div>
               </div>
@@ -39,8 +40,8 @@ const Header = () => {
         </div>
 
 
-<div className='photo col-md-3'>
-  <img src={img} alt='worker' width='380' height='380'/>
+<div className='photo col-md-4'>
+  <img src={img} alt='worker' width='400' height='400'/>
 </div>
      
      </div> 

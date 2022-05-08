@@ -18,17 +18,25 @@ const Navbar =()=> {
         <form className="d-flex">
         <ul className="navbar-nav me-auto mb-3 mb-lg-0">
           <li className="nav-item">
-            <Link className="nav-link active" style={{color:'white',fontSize:'17px',borderBottom:'3px solid #FFB233'}} aria-current="page" to="/home">Home</Link>
+            <Link className="nav-link active" 
+            style={{color:'white',fontSize:'17px',borderBottom:'3px solid #FFB233'}} 
+            aria-current="page" to="/home">Home</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/service" style={{color:'white',fontSize:'17px'}}>Our Service</Link>
+            <Link className="nav-link" exact to="/service" 
+            style={{color:'white',fontSize:'17px'}}>Our Service</Link>
           </li>
          
           <li className="nav-item">
-            <Link className="nav-link" to="about" style={{color:'white',fontSize:'17px'}}>About Us</Link>
+            <Link className="nav-link" to="/contact" 
+            style={{color:'white',fontSize:'17px'}}>Contact Us</Link>
           </li>
         </ul>
-          <button className="btn btn-primary ms-2" style={{width:'150px',borderRadius:'17px',padding:'2px'}}  type="submit">Contact Us</button>
+        <Link to="/userReg">
+          <button className="btn btn-primary ms-2" 
+          style={{width:'100px',borderRadius:'17px',padding:'5px',fontSize:'20px'}}  
+          type="submit">Log In</button>
+          </Link>
         </form>
       </div>
     {/* </div> */}

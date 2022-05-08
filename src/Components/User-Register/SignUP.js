@@ -1,17 +1,23 @@
 import React from 'react';
 import image from '../../assets/IMG-20220427-WA0013.jpg'
 import './register.css';
+import {Link} from 'react-router-dom'
+import FacebookIcon from '@mui/icons-material/Facebook';
+import GoogleIcon from '@mui/icons-material/Google';
 
 export default function UserSignUP() {
   return (
     <>
+<div className="ggg">
 
-<div className="container row par">
+<div className="user_register container">
+<div className="row">
 
 <form className="row g-3 col-md-7 needs-validation" noValidate>
 
 <section className="row g-3 needs-validation section" noValidate>
-<h2>User SignUp</h2>
+<h2 style={{margin:' 10px 0',color:'#566573'}}>User SignUp</h2>
+
   <div className="col-md-6">
     <input type="text" className="form-control" id="validationCustom01" placeholder='First Name' required />
     <div className="valid-feedback">
@@ -126,32 +132,34 @@ export default function UserSignUP() {
 
 
   <h5 className="center">OR</h5>
-
   <div className="col-md-6">
-    <input type="text" className="form-control" id="validationCustom05" placeholder="Sign Up with Google" required />
-    <div className="invalid-feedback">
-      Please provide a valid Id.
-    </div>
+ 
+    <button type="text" className="btn btn-pink with">
+      <GoogleIcon />Sign Up with Google</button>
+    
   </div>
   <div className="col-md-6">
-    <input type="text" className="form-control" id="validationCustom05" placeholder="Sign Up with Facebook" required />
-    <div className="invalid-feedback">
-   
-    </div>
+
+    <button type="text" className="btn btn-pink with">
+       <FacebookIcon/> Sign Up with Facebook
+    </button>
   </div>
 
 <p className="center"> Already a Member? <span></span>
-<span style={{color:'purple',cursor:'pointer'}}>Sign in</span></p>
+<Link to="/userReg">
+<span style={{color:'purple',cursor:'pointer',fontWeight:'bold'}}>Sign in</span>
+</Link>
+</p>
 
 </form>
 
-<div className="col-md-5 photo">
-  {/* <h3 className='center txt'>Join Our Family</h3>
-  <p className='center txt'>lorem ipsum dolor sit amet, consectetur adipiscing,<br/>
-           consectetur adipiscing</p> */}
-  <img src={image} width="590" height="650" alt='img'/>
+
+<div className="col-md-5 pho">
+  <img src={image} width="557" height="750" alt='img'/>
 </div>
 
+</div>
+</div>
 </div>
 
     </>

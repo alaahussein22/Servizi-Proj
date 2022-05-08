@@ -8,10 +8,10 @@ import FmdGoodIcon from '@mui/icons-material/FmdGood';
 import MailIcon from '@mui/icons-material/Mail';
 
 const Footer = () => {
-    return <div>
+    return <div className="fff">
 
-<footer className="footer ">
-<div className="row container">
+<footer className="footer container">
+<div className="row ">
 
 <div className="col-md-3 left">
    <h2>Servizi</h2>
