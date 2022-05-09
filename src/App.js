@@ -7,6 +7,10 @@ import Footer from './Components/Footer/footer'
 import UserSignUP from './Components/User-Register/SignUP';
 import Contact from './Components/Contact-Us/contact'
 import Technician from './Components/Our-Technician/technician';
+import TechSignIN from './Components/Tech-Register/SignIN'
+import TechSignUP from './Components/Tech-Register/SignUP'
+import TechProfile from './Components/Technician-Profile/techProf'
+import TechBook from './Components/Tech-Appointment/techBook'
 
 function App() {
   return (
@@ -23,13 +27,17 @@ function App() {
          <Route path="/tech" element={<Technician />} />
          <Route path="/userReg"  element={<UserSignIN />} />
          <Route path="/userUp" element={<UserSignUP />} />
-         <Route path="/contact" element={<Contact />} />
+         <Route path="/techReg"  element={<TechSignIN />} />
+         <Route path="/techUp"  element={<TechSignUP />} />
+         <Route path="/techProfile" element={<TechProfile />} />
+         <Route path="/techBook" element={<TechBook />} />
 
-         
-         <Route path="**"  element={<Home />}/>
-    </Routes>
+          <Route path="/contact" element={<Contact />} />
 
-<Footer />
+
+              <Route path="**" element={<Home />} />
+            </Routes>
+            <Footer />
 </div>
 </BrowserRouter>
     </>

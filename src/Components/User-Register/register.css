@@ -33,7 +33,7 @@ form .form-control , .form-select
             background-color:#D0D3D4;
             margin: 50px 0;
             padding:10px;
-            height: 450px;
+            height: 500px;
             border-radius:15px ;
             -webkit-border-radius:15px ;
             -moz-border-radius:15px ;
@@ -50,9 +50,24 @@ form .form-control , .form-select
 
 .para{  margin: 20px 320px;cursor: pointer;border:0}
 
-.with{color:#566573;font-weight: bold;
-       margin: 0 12px; 
+.with{
+       color:#566573;
+       font-weight: bold;
+       margin: 0 12px;
        border-radius:20px ;
+       border: 2px solid #566573;
+       width: 270px;
+       -webkit-border-radius:20px ;
+       -moz-border-radius:20px ;
+       -ms-border-radius:20px ;
+       -o-border-radius:20px ;
+}
+
+.tecBt{font-weight: bold;
+       font-size: 20px;
+        margin: 10px 140px; 
+        border-radius:20px ;
         border: 2px solid #566573; 
         width: 270px;
+
 }

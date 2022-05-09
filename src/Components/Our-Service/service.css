@@ -56,8 +56,9 @@
        -o-border-radius:50% ;
 }
 
-.lorem h5{font-weight: bold;margin-top: 60px;}           
-.lorem p{margin-top:10px;color:#566573}
+.lorem h5{font-weight: bold;margin-top: 60px;text-decoration: none;}           
+.lorem p{margin-top:10px;color:#566573;  text-decoration: none;
+}
 
 
 

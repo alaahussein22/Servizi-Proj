@@ -20,9 +20,12 @@ const Service=()=> {
   </p>
 
 
+  <Link to='/contact' style={{ textDecoration: 'none' }}>
+
 <div className="warning">
  <button className='btn btn-pink'>Contact Us</button>
 </div>
+</Link>
  </div>
 
 
@@ -43,14 +46,16 @@ const Service=()=> {
  <section className="all-serv container">
  <div className="row">
 
-
-        <div className="lorem col-md-4 ">
+ 
+        <div className="lorem col-md-4 " >
         <span> <ConstructionIcon /> </span>
-            <Link to='/tech' ><h5>Lorem ipsum</h5></Link>
+      <Link to='/techProfile' style={{ textDecoration: 'none' }}>
+           <h5 style={{color: 'black'}}>Lorem ipsum</h5>
             <p>lorem Ipsum dolor sit amet,
              consect adipiscing elit, 
              sed diam pulvinar lorem ,
              lector matchers lector adipiscing matchers</p>
+             </Link>      
            </div>
 
 

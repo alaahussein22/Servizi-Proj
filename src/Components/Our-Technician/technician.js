@@ -7,9 +7,6 @@ import img5 from '../../assets/blackstar.png'
 import img6 from '../../assets/greenstar.png'
 import location from '../../assets/location.png'
 import time from '../../assets/time2.png'
-
-
-import ConstructionIcon from '@mui/icons-material/Construction';
 import './technician.css'
 import {Link} from 'react-router-dom'
 
@@ -29,10 +26,13 @@ export default function Technician() {
     the best user experience that you will love.
     </p>
 
+    <Link to='/contact' style={{ textDecoration: 'none' }}>
 
 <div className="warning">
   <button className='btn btn-pink'>Contact Us</button>
 </div>
+</Link>
+
 
 <section className="d-flex p-3 tech">
 
@@ -67,7 +67,7 @@ export default function Technician() {
 <section className="tech-type container">
 
 <div className="row">
-     <div className=" first">
+     <div className="first third">
 
      <div className="dropdown col-md-5">
        <button className="btn btn-white dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
@@ -83,7 +83,7 @@ export default function Technician() {
      </div>
 
 
-<div className="first">
+<div className="first third">
      <div className="dropdown col-md-5">
        <button className="btn btn-white dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
          Sort By
@@ -109,9 +109,14 @@ export default function Technician() {
 <section className="all-tech container">
 <div className="row">
 
+
+
 <div className="profileT col-md-3">
 
-<section className="prof d-flex m-3 p-1">
+
+<Link to='/techProfile' style={{ textDecoration: 'none' }}>
+
+<section className="prof d-flex m-3 p-1" style={{color: 'black'}}>
 
 <span className="">
      <img src={img3} alt="" width={100} height={100}/>
@@ -129,6 +134,7 @@ export default function Technician() {
     
 </section>
 
+</Link>
 <hr style={{color: '#566573',border: '1px solid #566573'}}></hr>
 
 <div className="loc d-flex m-3 p-1">
@@ -192,8 +198,8 @@ export default function Technician() {
 </section>
 
 </div>
-     </div>
 
+     </div>
 
 
      <div className="profileT col-md-3">

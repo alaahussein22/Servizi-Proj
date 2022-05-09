@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '../../assets/IMG-20220427-WA0013.jpg'
+import image from '../../assets/istockphoto-1312133528-170667a.jpg'
 import './register.css';
 import {Link} from 'react-router-dom'
 import FacebookIcon from '@mui/icons-material/Facebook';

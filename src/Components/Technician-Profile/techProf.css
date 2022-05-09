@@ -1,0 +1,23 @@
+.TecProfile , .review{
+             background-color:white;
+             margin: 30px 200px;
+             padding: 5px;
+             border-radius: 15px;
+             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+             -webkit-border-radius: 15px;
+             -moz-border-radius: 15px;
+             -ms-border-radius: 15px;
+             -o-border-radius: 15px;
+}
+
+.ppp{background-color:#AEB6BF;}
+
+.TecProfile .tecBtn{margin:50px 0 50px 100px}
+
+.review h2{margin:10px}
+
+.review div{box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                margin: 20px 50px;
+                padding: 5px;
+                border-radius: 15px;
+}

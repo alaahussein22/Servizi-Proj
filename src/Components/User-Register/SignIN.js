@@ -37,15 +37,26 @@ const UserSignIN = () => {
   <h4 className="para col-md-3" style={{color:'#566573',fontSize:'18px'}}>
   Create Account</h4>
   </Link>
+
+<hr style={{color:'#566573', border: '1px solid #566573',margin: '15px'}}></hr>
+  <h5 className="center">OR</h5>
+  <div className="col-md-6">
+ 
+ <Link to='/techReg'>
+    <button type="text" className="btn btn-primary tecBt">
+       Sign In As Technician</button>
+</Link>
+  </div>
 </section>
 
 
 <div className="col-md-6 pho">
-  <img alt="user" src={img} width={636} height={560}/>
+  <img alt="user" src={img} width={636} height={600}/>
 </div>
 
 </div>
 </div>
+
     </div>;
 }
 

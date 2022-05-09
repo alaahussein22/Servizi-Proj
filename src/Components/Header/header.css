@@ -1,7 +1,7 @@
 .hhh{background-color:#0B0B85;}
 .servH{background-color:#0B0B85;
        width: auto;
-       height:500px}
+       height:550px}
 
 
 .house h2{color:white;padding: 60px 0 20px;}
@@ -16,7 +16,10 @@
                     
 }
 
-/* .dropdown-toggle::after{margin-left:20px;} */
+.first .dropdown-toggle::after{margin-left:40px;}
+.first .dropdown-item{ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; border-radius:7px ; -webkit-border-radius:7px ; -moz-border-radius:7px ; -ms-border-radius:7px ; -o-border-radius:7px ;
+}
+
 
 .service-type .first{
                      background-color: white;

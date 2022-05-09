@@ -23,7 +23,7 @@
            -o-border-radius:15px ;
 }
 
-.dropdown-toggle::after{margin-left: 150px;}
+.third .dropdown-toggle::after{margin-left: 150px;}
 
 .tech-type .first{
     background-color: white;
